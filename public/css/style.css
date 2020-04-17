@@ -1,0 +1,664 @@
+@font-face {
+  font-family: 'Liu Jian Mao Cao';
+  font-display: swap;
+  src: url("../fonts/LiuJianMaoCao-Regular.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-display: swap;
+  src: url("../fonts/Ubuntu-Regular.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.header__plus {
+  width: 32px;
+  height: 32px;
+}
+
+.header__name {
+  color: #BCB0B0;
+  font-family: 'Ubuntu', serif;
+}
+
+.header__liboss {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 15px;
+}
+
+.header__miniline {
+  height: 32px;
+  width: 15px;
+}
+
+.BossSection {
+  background: #B6B2C7;
+}
+
+.BossSection-index {
+  background: #B6B2C7;
+  padding: 0 76px;
+  min-height: 614px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#E2E1E2));
+  background: linear-gradient(180deg, #FFFFFF 0%, #E2E1E2 100%);
+}
+
+.header__entry {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__photo {
+  color: #51A6F4;
+  font-size: 55px;
+  margin: 3px 0 10px 0;
+  font-family: 'Liu Jian Mao Cao',	serif;
+}
+
+.header__boom {
+  color: #000;
+}
+
+.header__liboss {
+  padding: 0 7px;
+}
+
+.header__liboss_line {
+  padding: 0;
+}
+
+.header__line {
+  border: 1px solid #8D6DEA;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  width: 240px;
+  height: 40px;
+  left: 59px;
+  top: 8px;
+}
+
+.header__logo {
+  margin-left: 70px;
+}
+
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header__menu li:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#8984A0), to(#B6B2C7));
+  background: linear-gradient(180deg, #8984A0 0%, #B6B2C7 100%);
+}
+
+.header__menu li:hover a {
+  color: #D8D8D8;
+}
+
+.header__li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+}
+
+.header__reg {
+  background: -webkit-gradient(linear, left top, left bottom, from(#8984A0), to(#B6B2C7));
+  background: linear-gradient(180deg, #8984A0 0%, #B6B2C7 100%);
+}
+
+.header__Vxod {
+  font-size: 30px;
+  line-height: 34px;
+  font-family: 'Ubuntu', serif;
+}
+
+.header__1 {
+  color: #BFB4B4;
+}
+
+.header__2 {
+  color: #D8D8D8;
+}
+
+.section {
+  background: url(/img/Rectangle2.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 150px 0;
+}
+
+.section__form {
+  background: #534C70;
+  border-radius: 75px;
+  width: 734px;
+  height: 587px;
+}
+
+.section__tit {
+  color: #D8D8D8;
+  font-family: 'Ubuntu', serif;
+  font-size: 40px;
+  line-height: 46px;
+  margin: 47px 36px 60px;
+}
+
+.section__pole {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-bottom: 22px;
+}
+
+.section__label {
+  font-family: 'Ubuntu', serif;
+  color: #D8D8D8;
+  font-size: 25px;
+  line-height: 29px;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+}
+
+.section__input {
+  background: #C4C4C4;
+  border-radius: 5px;
+  width: 415px;
+  height: 36px;
+  border: none;
+}
+
+.section__pole1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.section__label1 {
+  font-size: 15px;
+  line-height: 17px;
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+}
+
+.section__1 {
+  background: #C4C4C4;
+  border-radius: 10px;
+  width: 23px;
+  height: 19px;
+  -ms-flex-preferred-size: 4%;
+      flex-basis: 4%;
+}
+
+.section__inp {
+  background: #8984A0;
+  border-radius: 35px;
+  border: none;
+  font-family: 'Ubuntu', serif;
+  color: #D8D8D8;
+  font-size: 40px;
+  line-height: 46px;
+  width: 319px;
+  height: 67px;
+  margin-top: 15px;
+}
+
+.section__send {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer {
+  background: #534C70;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.footer__by {
+  font-family: 'Liu Jian Mao Cao',	serif;
+  color: #FFFFFF;
+  font-size: 30px;
+  line-height: 30px;
+  margin: 15px 23px 15px 0;
+}
+
+.message {
+  margin: 0;
+  font-family: 'Ubuntu', serif;
+  color: #f15555;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section__form_reg {
+  width: 734px;
+  height: 459px;
+}
+
+.section__tit_reg {
+  margin-left: 240px;
+}
+
+.BossSection {
+  padding: 41px 221px;
+}
+
+.BossSection__gomer {
+  width: 216px;
+  height: 216px;
+  margin-left: 90px;
+}
+
+.BossSection__profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.BossSection__titprof {
+  -ms-flex-preferred-size: 70%;
+      flex-basis: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 97px;
+}
+
+.BossSection__name {
+  font-family: 'Ubuntu', serif;
+  color: #FFFFFF;
+  font-size: 50px;
+  line-height: 57px;
+  letter-spacing: 0.2em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 0;
+}
+
+.BossSection__addphoto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 30px;
+  line-height: 34px;
+  letter-spacing: 0.1em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.BossSection__text {
+  font-family: 'Ubuntu', serif;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 100px 0;
+}
+
+.BossSection__bl {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 55px;
+}
+
+.BossSection-content {
+  padding: 15px;
+}
+
+.BossSection-content__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 70px;
+}
+
+.BossSection-content__img-photo {
+  cursor: pointer;
+}
+
+.BossSection-content__photo {
+  margin: 0 10px;
+  margin-bottom: 15px;
+}
+
+.BossSection-content__img {
+  width: 221px;
+  height: 222px;
+}
+
+.BossSection-content__poster {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.BossSection__container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.AddSection {
+  background: #B6B2C7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 90px 0 90px;
+}
+
+.AddSection__form {
+  background: #534C70;
+  border-radius: 75px;
+  width: 773px;
+  height: 713px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.AddSection__addphoto {
+  margin-top: 0;
+}
+
+.AddSection__tic {
+  margin-top: 45px;
+}
+
+.AddSection__send {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15px;
+}
+
+.AddSection__send1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 45px;
+}
+
+.AddSection__inp {
+  border: 1px solid #FFFFFF;
+  background: #534C70;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 170px;
+  height: 44px;
+  font-family: 'Ubuntu', serif;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.AddSection__newinp {
+  padding: 13px 44px;
+}
+
+.AddSection__hidden {
+  overflow: hidden;
+  z-index: -1;
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+}
+
+.AddSection__txt {
+  border: 1px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #534C70;
+  width: 522px;
+  height: 273px;
+  margin: 15px 0;
+  color: #FFFFFF;
+}
+
+.AddSection__tt {
+  width: 241px;
+  height: 245px;
+}
+
+.OPSection {
+  background: #B6B2C7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 90px 0 90px;
+}
+
+.OPSection__form {
+  background: #534C70;
+  border-radius: 75px;
+  width: 773px;
+  height: 713px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.OPSection__head {
+  margin-left: 125px;
+}
+
+.OPSection__ex {
+  width: 241px;
+  height: 243px;
+  margin-right: 34px;
+}
+
+.OPSection__you {
+  margin-right: 500px;
+}
+
+.OPSection__youname {
+  font-family: 'Ubuntu', serif;
+  color: #BCB0B0;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 174px;
+  font-size: 35px;
+  line-height: 40px;
+}
+
+.OPSection__sect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.OPSection__marks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 0;
+}
+
+.OPSection__AR {
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 23px;
+  margin: 0;
+  font-family: 'Ubuntu', serif;
+}
+
+.OPSection__rating {
+  font-family: 'Ubuntu', serif;
+  color: #BCB0B0;
+  font-size: 32px;
+  line-height: 38px;
+  margin: 0;
+}
+
+.OPSection__1 {
+  border: 1px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 34px;
+  height: 34px;
+  background: none;
+  color: #FFFFFF;
+  font-family: 'Ubuntu', serif;
+  font-size: 20px;
+  line-height: 23px;
+  cursor: pointer;
+}
+
+.OPSection__1:hover {
+  background: #f59c9c;
+}
+
+.OPSection__inp {
+  border: 1px solid #FFFFFF;
+  background: #534C70;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 109px;
+  height: 34px;
+  font-family: 'Ubuntu', serif;
+  color: #FFFFFF;
+}
+
+.OPSection__l {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 25px 0 25px;
+}
+
+.OPSection__like {
+  margin-right: 18px;
+}
+
+.OPSection__txt {
+  border: 1px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #534C70;
+  width: 522px;
+  height: 275px;
+  margin: 0;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=style.css.map */

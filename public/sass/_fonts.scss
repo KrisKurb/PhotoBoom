@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'Liu Jian Mao Cao';
+	font-display: swap;
+	src: url('../fonts/LiuJianMaoCao-Regular.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@mixin Liu {
+	font-family: 'Liu Jian Mao Cao',	serif;
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	font-display: swap;
+	src: url('../fonts/Ubuntu-Regular.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@mixin Ubuntu{
+	font-family: 'Ubuntu', serif;
+}
